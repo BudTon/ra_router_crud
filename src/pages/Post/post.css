@@ -1,0 +1,93 @@
+/* Контейнер поста */
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Автор поста */
+.post-author {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-author-name {
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+}
+
+.post-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* Основное содержимое поста */
+.post-main {
+  margin-top: 10px;
+}
+
+.post-content {
+  padding-top: 5px;
+  margin-bottom: 10px;
+  min-height: 60px;
+  text-align: start;
+}
+
+.post-text {
+  margin: 0;
+}
+
+/* Футер поста */
+.post-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post-react-buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.post-like-button,
+.post-comment-button {
+  background-color: transparent;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 5px;
+  border: 1px solid rgb(177, 176, 176);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.post-like-button:hover,
+.post-comment-button:hover {
+  background-color: #e0e0e0;
+}
+
+.comment-textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+

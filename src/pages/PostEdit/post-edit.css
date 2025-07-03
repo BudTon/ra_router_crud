@@ -1,0 +1,103 @@
+.container-edit {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.header-edit {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(228, 225, 225);
+  padding: 10px;
+  margin: -20px -20px 20px -20px;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.close-button:hover {
+  color: red;
+}
+
+.content-edit {
+  margin-bottom: 10px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-text-edit {
+  margin: 0;
+}
+
+.options-edit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.option-edit {
+  display: flex;
+  align-items: center;
+  width: 47%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.option-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.option-text {
+  font-size: 14px;
+}
+
+.footer-edit {
+  display: flex;
+  height: 50px;
+  text-align: right;
+  align-items: center;
+  justify-content: end;
+  background-color: rgb(228, 225, 225);
+  padding: 10px;
+  margin: 20px -20px -20px -20px;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}

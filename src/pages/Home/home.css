@@ -1,0 +1,33 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.container-crud {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 5px;
+}
+
+.create-post-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.create-post-button:hover {
+  background-color: #0056b3;
+}
