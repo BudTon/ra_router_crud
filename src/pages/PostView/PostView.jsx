@@ -40,6 +40,7 @@ export default function PostView(props) {
         <div className="post-author">
           <img className="post-avatar" src={imgAuthor} />
           <p className="post-author-name">Ilinaz Gilyazov</p>
+          <button className="close-button" onClick={() => navigate("/")}> X </button>
         </div>
         <div className="post-main">
             <div className="post-content">
